@@ -1,6 +1,7 @@
 /*Large Styles*/
 body {
     margin: 0px;
+    font-family: Roboto Slab;
 }
 
 .container {
@@ -10,6 +11,7 @@ body {
 
 /*Nav Styles*/
 .nav-wrapper {
+    background-color: #0f1a1f;
     display: flex;
     justify-content: space-between;
     padding: 38.5px;
@@ -33,21 +35,21 @@ body {
 }
 
 .nav-link-wrapper a {
-    color: #db5a51;
+    color: #386575;
     text-decoration: none;
     transition: color 0.5s;
 }
 
 .nav-link-wrapper:hover {
-    border-bottom: 1px solid #db5a51;
+    border-bottom: 1px solid #386575;
 }
 
 .nav-link-wrapper a:hover {
-    color: #db5a51;
+    color: #386575;
 }
 
 .brand {
-    color: #db5a51;
+    color: #386575;
 }
 
 /*Portfolio Styles*/
@@ -105,7 +107,7 @@ body {
 
 .img-text-wrapper:hover .subtitle {
     font-weight: 600;
-    color: #db5a51;
+    color: #386575;
 }
 
 .img-darken {
@@ -133,7 +135,14 @@ body {
       font-size: 80px;
       left: 527px;
       top: 40%;
-      color: #db5a51;
+      color: #386575;
       z-index: 2;
-      text-shadow: 0px 1px 3px black;
+      text-shadow: 0px 3px 5px #213B45;
   }
+.pallet {
+    color: #1A2E36;
+    color: #67848F;
+    color: #386575;
+    color: #389DC2;
+    color: #213B45;
+}
